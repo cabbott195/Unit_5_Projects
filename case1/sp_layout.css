@@ -14,10 +14,12 @@
 */
 
 /* Window and Body Styles */
+/*number 3*/
 html{
     height: 100%;
     min-height: 100%;
 }
+/*number 4*/
 body{
     width: 95%;
     min-width: 640px;
@@ -25,52 +27,113 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-header ul nav li a{
-    box-sizing: default;
+/*number 5*/
+header, ul, nav, li, a{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Row Styles */
-div.row::after{
+/*number 6*/
+.row::after{
     clear: both;
     content:"";
     display: table;
 }
 
 
-
-
  /*Page Header Styles*/
-img.logo{
+ /*number 7*/
+header img{
     display:block;
     width: 70%;
     float: left;
-}    
+}
 /*NEED TO FIX NO.7*/
 
-
-
+/*number 8*/
+header nav{
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 30%;
+}
+/*NEED TO FIX NO.8*/
+/*number 9*/
+header nav ul li a{
+    display: block;
+    width: 100;
+}
 
 /* Horizontal Navigation List Styles */
-
-
+/*number 10*/
+nav.horizontal li{
+    display: block;
+    float: left;
+    width: 12.5%;
+}
 
 
 /* Topics Styles */
-
-
-
-
+/*number 11*/
+ul#topics li{
+    display: block;
+    width: 20%;
+    float: left;
+    margin-left: 0%;
+    margin-right: 1.5%;
+}
+/*number 12*/
+ul#topics li:first-of-type{
+    margin-left: 7.75%;
+}
+ul#topics li:last-of-type{
+    margin-right: 7.75%;
+}
+/*number 13*/
+#topics img{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /* HR Styles */
-
-
-
-
+/*number 14*/
+hr{
+    width: 50%;
+}
 /* Customer Comment Styles */
-
-
-
+/*number 15*/
+ul.comments{
+    width: 75%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*number 16*/
+ul#comments li{
+    display: block;
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+}
+/*number 17*/
+ul#comments img{
+    display: block;
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*number 18*/
+ul#commentsp{
+    margin-left: 70%;
+}
 /* Footer Styles */
-
-
+footer{
+    clear: both;
+}
