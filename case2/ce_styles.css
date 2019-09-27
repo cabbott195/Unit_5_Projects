@@ -13,10 +13,11 @@
 
 
 /* Window and Body Styles */
-/*number 9*/
+/*number 10*/
 html{
     background-color: rgb(101, 101, 101);
 }
+/*number 11*/
 body{
     background-color: white;
     font-family: Verdana, Geneva, Arial, sans-serif;
@@ -27,14 +28,63 @@ body{
     width: 95%;
     min-width: 320px;
     max-width: 960px;
+    position: relative;
+}
+/*number 12*/
+img{
+    display: block;
+    width: 100%;
+}
+/*number 13*/
+nav a{
+    text-decoration: none;
 }
 
 /* Body Header Styles */
-
-
-
+/*number 14*/
+body > header{
+    background-color: rgb(191, 68, 70);
+    height: 40px;
+}
+/*Number 15*/
+nav ul li{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/*number 16*/
+header, a:visited, a:link{
+    font-size: 0.9em;
+    color: rgb(51, 51, 51);
+}
+nav a:hover, nav a:active{
+    color: rgb(255, 211, 211);
+}
 /* DIV Container Styles */
-
-
+/*number 17*/
+div.container{
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+/*number 18*/
+div.cell{
+    display: block;
+    width: 100%;
+    padding-left: 8px;
+    padding-top: 8px;
+}
 
 /* Footer Styles */
+/*number 19*/
+footer{
+    position: relative;
+    right: 8px;
+    bottom: 8px;
+    color: rgb(143, 33, 36);
+    text-align: right;
+    font-size: 2vmin;
+}
